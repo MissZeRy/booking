@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Booking</title>
+</head>
+
+<body>
+    <div class="url"><p>Test URL : index.html?roomId=A101</p></div>
+    <div class="testText" id="testText"></div>
+    <div class="container">
+        <div class="left-container">
+            <div class="top-content">
+                <div class="roomId">
+                    <h1 id="roomNumber"></h1>
+                </div>
+                <div class="date">
+                    <p>Upcoming</p>
+                    <p class="day" id="booking-day"></p>
+                    <p class="month" id="booking-month"></p>
+                </div>
+            </div>
+
+            <div class="left-timeLine">
+                <div class="left-schedule" id="left-schedule"></div>
+            </div>
+        </div>
+        <div class="right-container">
+            <div class="header">
+                <button id="week">THIS WEEK</button>
+                <button id="nextWeek">NEXT WEEK</button>
+                <button id="month">WHOLE MONTH</button>
+            </div>
+            <div class="right-timeLine">
+                <div class="right-schedule" id="right-schedule"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

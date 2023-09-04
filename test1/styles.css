@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title {
+    display: flex;
+    font-size: 1.5rem;
+    font-weight: 600;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.view {
+    color: rgb(14, 77, 248);
+}
+
+.container{
+    background: #e6e6e6;
+    padding: 4%;
+    width: auto;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+img {
+    height: 150px;
+    width: auto;
+    margin: 0 4px 4px 0;
+}
+

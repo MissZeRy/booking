@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+
+p {
+    font-weight: 200;
+}
+
+body {
+    background: #B9BDC8;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.url {
+    position: absolute;
+    top: 80px;
+    font-size: 1.3rem;
+    background: rgba(238, 232, 170, 0.575);
+}
+
+.testText {
+    position: absolute;
+    top: 50px;
+    font-size: 1.3rem;
+    background: rgba(238, 232, 170, 0.575);
+}
+
+.container {
+    position: relative;
+    display: flex;
+    height: 600px;
+    width: 1000px;
+    overflow: hidden;
+}
+
+.left-container {
+    position: relative;
+    background: #46529D;
+    width: 40%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.top-content {
+    width: 100%;
+    height: 50%;
+    padding-left: 50px;
+}
+
+.roomId {
+    background: #2ebaef;
+    color: #fff;
+    height: 30%;
+    padding: 30px;
+}
+
+.date {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 60%;
+    color: #fff;
+    padding-top: 50px;
+}
+
+.day {
+    position: absolute;
+    bottom: 35px;
+    font-size: 2rem;
+    color: #94a1c2;
+
+}
+
+.month {
+    position: absolute;
+    bottom: 0;
+    font-size: 2rem;
+    color: #fff;
+}
+
+.left-timeLine {
+    background: #4D59A1;
+    height: 50%;
+    width: 100%;
+}
+
+.left-schedule {
+    background: #4d59a1;
+    padding: 10px 50px;
+    color: #fff;
+}
+
+.left-schedule.vive {
+    background: #46529e;
+}
+
+.time {
+    color: #8a92ce;
+}
+
+.detailed {
+    margin-bottom: 20px;
+}
+
+
+.right-container {
+    background: #fff;
+    width: 60%;
+    height: 100%;
+    background: #ffffff;
+}
+
+.header {
+    display: flex;
+    align-items: end;
+    background: #efeeec;
+    width: 100%;
+    height: 15%;
+}
+
+.header button {
+    border: none;
+    margin: 0 0 20px 50px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.schedule-bar {
+    background: #f7f7f7;
+    margin: 20px 0;
+    padding-left: 80px;
+}
+
+.schedule-details {
+    position: relative;
+    margin: 10px 0;
+    padding-left: 80px;
+}
+
+
+ul {
+    list-style-position: outside;
+}
+
+li {
+    margin-top: 10px;
+}
+
+li:nth-child(1), li:nth-child(2) {
+    color: #34c9d8;
+}
+
+li:nth-child(3), li:nth-child(4) {
+    color: #2cc76a;
+}
+
+li:nth-child(5), li:nth-child(6) {
+    color: #f28037;
+}
+
+
